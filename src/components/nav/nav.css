@@ -4,8 +4,8 @@ nav{
     display: block;
     padding: 0.7rem 1.7rem;
     z-index: 2;
-    /* left:2rem;
-    transform: translateX(225%); */
+    /* left:2rem; */
+    /* transform: translateX(225%); */
     position: fixed;
     left:50%;
     transform: translate(-50%);
