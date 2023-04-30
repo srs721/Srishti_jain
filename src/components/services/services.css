@@ -43,6 +43,7 @@
 }
 .service__list-icon{
     margin-top: 2px;
+    font-size: 2rem;
 }
 .service__list p{
     font-size: 0.9 rem;

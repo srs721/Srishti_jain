@@ -22,7 +22,7 @@ const data = [
   {
     avatar: Sandeep,
     name:'Sandeep Gurung (Senior Data Integration Engineer at DXC Technology)',
-    review: 'Srishti is hardworking'
+    review: 'I have worked closely with Srishti for two year at NTT Ltd. Being her collegue I have had a chance to engage with her in multiple projects. She has been one of most talented employees, and '
   },
   {
     avatar: Subhash,

@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-import {RiCheckboxBlankFill} from 'react-icons/ri'
+import {GiBulletImpacts} from 'react-icons/gi'
 
 const Services = () => {
   return (
@@ -16,13 +16,19 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <RiCheckboxBlankFill className='service__list-icon'/>
-              <p> Used SOLID principles</p>         
+              <GiBulletImpacts className='service__list-icon'/>
+              <p> Built an electronics shopping web app that is a one place shopping destination for all your electronics. </p>         
             </li>
 
             <li>
-              <RiCheckboxBlankFill className='service__list-icon'/>
-              <p> Used Design principles </p>         
+              <GiBulletImpacts className='service__list-icon'/>
+              <p> This project has been designed using TDD, SOLID, design patterns like Abstract factory and Singleton.</p>         
+            </li>
+
+
+            <li>
+              <GiBulletImpacts className='service__list-icon'/>
+              <p>Used My SQL database and created stored procedures for reducing the query time!</p>
             </li>
 
           </ul>
@@ -37,13 +43,13 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <RiCheckboxBlankFill className='service__list-icon'/>
-              <p> Used S3 storage bucket </p>         
+              <GiBulletImpacts className='service__list-icon'/>
+              <p> Created dynamic website for a Cafe using EC2 instance and S3 storage bucket which resulted in high availability and reliability.</p>         
             </li>
 
             <li>
-              <RiCheckboxBlankFill className='service__list-icon'/>
-              <p> Used EC2 </p>         
+              <GiBulletImpacts className='service__list-icon'/>
+              <p> Used Amazon RDS, VPC, created IAM roles and serverless architecture to ensure security and componenets are seperated from each other. </p>         
             </li>
 
           </ul>
@@ -58,21 +64,16 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <RiCheckboxBlankFill className='service__list-icon'/>
-              <p> Used SVM machine learning Model</p>         
+              <GiBulletImpacts className='service__list-icon'/>
+              <p> Developed a smart irrigation mobile app which can predict the diseases in leaves using SVM model, that gave an accuracyof 80%.</p>         
             </li>
 
             <li>
-              <RiCheckboxBlankFill className='service__list-icon'/>
-              <p> Used IOT sensors </p>         
+              <GiBulletImpacts className='service__list-icon'/>
+              <p> Used IOT sensor to check the physical condition of soil and various other environment sensors like temperature, humidityand soil moisture sensor. </p>         
             </li>
-
           </ul>
         </article>
-
-
-
-
       </div>
     </section>
   )
