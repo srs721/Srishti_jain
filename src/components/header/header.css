@@ -67,7 +67,7 @@ background: var(--color-primary);
 
 @media screen and (max-width: 1024px){
     header{
-        height: 72vh;
+        height: 78vh;
     }
     
     }
