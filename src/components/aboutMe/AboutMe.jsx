@@ -44,7 +44,7 @@ const AboutMe = () => {
     </article>
     </div>
     <p>
-      Here goes the textttttt
+    An engineer with the desire to integrate technology into daily life so that our clients can benefit the most from it. I aim to create technology that is safe, dependable, and satisfies user demands!
     </p>
     <a href='#contact' className='btn btn-primary'> Let's Talk </a>
   </div>
